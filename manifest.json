@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "IMDB Lookup",
+  "version": "1.0",
+  "author": "Eivind Furuberg",
+  "description": "Browser toolbar extenstion for looking up movie details from IMDB",
+  "icons": {
+    "48": "icons/search-48px.png"
+  },
+  "persmission": ["webRequest"],
+  "browser_action": {
+    "default_icon": "icons/search-32px.png",
+    "default_title": "IMDB Lookup",
+    "default_popup": "popup/search.html"
+  }
+}
